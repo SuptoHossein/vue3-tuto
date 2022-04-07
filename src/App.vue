@@ -1,17 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" />
+
+  <!-- Components -->
+  <!-- <Home />
+  <InterpolationAndData /> -->
+  <MethodsWithParams />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import Home from "./components/Home.vue";
+// import InterpolationAndData from "./components/InterpolationAndData.vue";
+import MethodsWithParams from "./components/MethodsWithParams.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    // Home,
+    // InterpolationAndData,
+    MethodsWithParams,
+  },
+};
 </script>
 
 <style>
