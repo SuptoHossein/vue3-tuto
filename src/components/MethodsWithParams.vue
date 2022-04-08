@@ -3,7 +3,6 @@
     <h1>Methods and params</h1>
     <p>{{ getName("Peter") }}</p>
     <p>{{ getName("brouce") }}</p>
-
     <p>{{ getData().email }}</p>
   </div>
 </template>
@@ -31,4 +30,4 @@ export default {
 </script>
 
 <style>
-</style>
+</style>``

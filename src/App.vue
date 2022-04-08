@@ -2,22 +2,16 @@
   <img alt="Vue logo" src="./assets/logo.png" />
 
   <!-- Components -->
-  <!-- <Home />
-  <InterpolationAndData /> -->
-  <MethodsWithParams />
+  <Home />
 </template>
 
 <script>
-// import Home from "./components/Home.vue";
-// import InterpolationAndData from "./components/InterpolationAndData.vue";
-import MethodsWithParams from "./components/MethodsWithParams.vue";
+import Home from "./components/Home.vue";
 
 export default {
   name: "App",
   components: {
-    // Home,
-    // InterpolationAndData,
-    MethodsWithParams,
+    Home,
   },
 };
 </script>
